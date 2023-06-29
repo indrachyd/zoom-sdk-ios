@@ -9,10 +9,12 @@
 Pod::Spec.new do |s|
   s.name             = 'Zoom-SDK-iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Zoom-SDK-iOS.'
+  s.swift_versions   = '4.0'
+  s.platform         = :ios, "11.0"
+  s.summary          = 'This Zoom SDK will update regularly once the Zoom SDK get updated.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                    This library is identically with static Zoom SDK project embed source library.
                        DESC
 
   s.homepage         = 'https://github.com/indrachyd/Zoom-SDK-iOS'
@@ -23,6 +25,6 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Source/**/*.swift'
+  s.source_files = 'Source/*t'
   
 end

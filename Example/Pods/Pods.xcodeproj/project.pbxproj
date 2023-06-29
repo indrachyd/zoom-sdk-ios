@@ -40,7 +40,7 @@
 		01747F1F2A4D5168005CF1D3 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		058F65123FF26E7C1B6A431192B9A89F /* Pods-Zoom-SDK-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoom-SDK-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
 		1259F43408F58D0FD637D06BB46006F5 /* Zoom-SDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Zoom-SDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		1650928A9342B2EA9744ACFC5473DDFA /* Pods-Zoom-SDK-iOS_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zoom-SDK-iOS_Example"; path = Pods_Zoom_SDK_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1650928A9342B2EA9744ACFC5473DDFA /* Pods_Zoom_SDK_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoom_SDK_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E74E0C70E3F55E78035ACC88A59A1A9 /* Zoom-SDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Zoom-SDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		273278F3083D4DCE94E748253D82E949 /* Zoom-SDK-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Zoom-SDK-iOS.modulemap"; sourceTree = "<group>"; };
 		30465FBBC9DB2EA930BB65BDAE4B1CE8 /* Pods-Zoom-SDK-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zoom-SDK-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		368F36B0829D899A4E7A72F0471044B8 /* Pods-Zoom-SDK-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zoom-SDK-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		40D59B391E4824C149532DE428ADB9E4 /* Pods-Zoom-SDK-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zoom-SDK-iOS_Example.modulemap"; sourceTree = "<group>"; };
 		5F585ED129072DC5C92BFACEBF0D006D /* Pods-Zoom-SDK-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zoom-SDK-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		63EBBB9BD036FA53E408D454E76A2B74 /* Pods-Zoom-SDK-iOS_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Zoom-SDK-iOS_Tests"; path = Pods_Zoom_SDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63EBBB9BD036FA53E408D454E76A2B74 /* Pods_Zoom_SDK_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zoom_SDK_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D643B96F77E50AC6791D8D53B872D3F /* Pods-Zoom-SDK-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zoom-SDK-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		76E9D4F84C18C07189319EDC13FD8781 /* Zoom-SDK-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Zoom-SDK-iOS-prefix.pch"; sourceTree = "<group>"; };
@@ -152,8 +152,8 @@
 		6A3F0DC78119E91C7FB4D182E9A9ADED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1650928A9342B2EA9744ACFC5473DDFA /* Pods-Zoom-SDK-iOS_Example */,
-				63EBBB9BD036FA53E408D454E76A2B74 /* Pods-Zoom-SDK-iOS_Tests */,
+				1650928A9342B2EA9744ACFC5473DDFA /* Pods_Zoom_SDK_iOS_Example.framework */,
+				63EBBB9BD036FA53E408D454E76A2B74 /* Pods_Zoom_SDK_iOS_Tests.framework */,
 				ED5A10B5B74C60A3EFCDCD3593E756C3 /* Zoom_SDK_iOS.framework */,
 			);
 			name = Products;
@@ -277,7 +277,7 @@
 			);
 			name = "Pods-Zoom-SDK-iOS_Tests";
 			productName = Pods_Zoom_SDK_iOS_Tests;
-			productReference = 63EBBB9BD036FA53E408D454E76A2B74 /* Pods-Zoom-SDK-iOS_Tests */;
+			productReference = 63EBBB9BD036FA53E408D454E76A2B74 /* Pods_Zoom_SDK_iOS_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		3396A648190DB1554B249946159DAA72 /* Zoom-SDK-iOS */ = {
@@ -314,7 +314,7 @@
 			);
 			name = "Pods-Zoom-SDK-iOS_Example";
 			productName = Pods_Zoom_SDK_iOS_Example;
-			productReference = 1650928A9342B2EA9744ACFC5473DDFA /* Pods-Zoom-SDK-iOS_Example */;
+			productReference = 1650928A9342B2EA9744ACFC5473DDFA /* Pods_Zoom_SDK_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -435,7 +435,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Tests/Pods-Zoom-SDK-iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Tests/Pods-Zoom-SDK-iOS_Tests.modulemap";
@@ -468,7 +468,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Tests/Pods-Zoom-SDK-iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Tests/Pods-Zoom-SDK-iOS_Tests.modulemap";
@@ -502,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Example/Pods-Zoom-SDK-iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Example/Pods-Zoom-SDK-iOS_Example.modulemap";
@@ -596,7 +596,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Example/Pods-Zoom-SDK-iOS_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Zoom-SDK-iOS_Example/Pods-Zoom-SDK-iOS_Example.modulemap";
@@ -697,7 +697,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Zoom_SDK_iOS;
@@ -730,7 +730,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Zoom-SDK-iOS/Zoom-SDK-iOS.modulemap";
 				PRODUCT_MODULE_NAME = Zoom_SDK_iOS;
