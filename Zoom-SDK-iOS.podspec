@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Zoom-SDK-iOS'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.swift_versions   = '4.0'
   s.platform         = :ios, "11.0"
   s.summary          = 'This Zoom SDK will update regularly once the Zoom SDK get updated.'
@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Source/*t'
+  s.source_files = 'Source/*'
   
 end
