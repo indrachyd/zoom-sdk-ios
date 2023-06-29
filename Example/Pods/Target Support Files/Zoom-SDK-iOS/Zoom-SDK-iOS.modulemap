@@ -1,0 +1,6 @@
+framework module Zoom_SDK_iOS {
+  umbrella header "Zoom-SDK-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
