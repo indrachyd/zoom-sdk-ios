@@ -1,5 +1,4 @@
 import XCTest
-import Zoom-SDK-iOS
 
 class Tests: XCTestCase {
     
