@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Zoom-SDK-iOS'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.swift_versions   = '4.0'
   s.platform         = :ios, "11.0"
   s.summary          = 'This Zoom SDK will update regularly once the Zoom SDK get updated.'
@@ -21,11 +21,10 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'indrachyd' => 'indra.cahyadi@bithealth.co.id' }
-  s.source           = { :git => 'https://github.com/indrachyd/Zoom-SDK-iOS.git', :tag => s.version.to_s }
+  s.source           = { :http => 'https://dl.dropboxusercontent.com/s/1vjj7v2838vn0r4/zoom-sdk-ios-5.15.2.8888.zip' }
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'Source/*'
-  s.vendored_frameworks =  "MobileRTC.xcframework"
   
 end
